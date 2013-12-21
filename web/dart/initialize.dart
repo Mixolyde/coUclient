@@ -90,7 +90,14 @@ init(){
     
     gameCanvas.style.position = 'absolute';
     gameCanvas.style.left = '0 px';
-    gameCanvas.style.top =  '0 px';   
+    gameCanvas.style.top =  '0 px';
+    
+    boxTest = new BoxTest("Box test");
+    
+    boxTest.initialize();
+    boxTest.initializeAnimation();
+    boxTest.runAnimation();
+    
     
     Player CurrentPlayer = new Player();
     

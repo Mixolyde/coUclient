@@ -3,7 +3,9 @@ library coUclient;
 import 'dart:html';
 import 'dart:async';
 import 'dart:convert';
-import 'dart:math';
+import 'dart:math' as Math;
+import 'package:box2d/box2d.dart';
+import 'package:box2d/box2d_browser.dart';
 import 'package:game_loop/game_loop_html.dart';
 import 'package:asset_pack/asset_pack.dart';
 
@@ -21,6 +23,7 @@ part './dart/chat.dart';
 part './dart/street.dart';
 part './dart/player.dart';
 part './dart/camera.dart';
+part './dart/box2dworld.dart';
 
 // TODO: It may be a good idea to write our own simpler game_loop at some point.
 // Define our game_loop

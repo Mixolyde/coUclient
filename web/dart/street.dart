@@ -16,6 +16,9 @@ DivElement gameScreen = querySelector('#GameScreen');
 int gameScreenWidth;
 int gameScreenHeight;
 
+int STREET_WIDTH;
+int STREET_HEIGHT;
+
 Street CurrentStreet;
 
 class Street {
@@ -61,6 +64,9 @@ class Street {
         
       width = (_data['dynamic']['l'].abs() + _data['dynamic']['r'].abs());
       height = (_data['dynamic']['t'].abs());
+      
+      STREET_WIDTH = (_data['dynamic']['l'].abs() + _data['dynamic']['r'].abs());
+      STREET_HEIGHT = (_data['dynamic']['t'].abs());
     }
   }
     
@@ -179,7 +185,8 @@ class Street {
     //modify left and top for parallaxing
     for (CanvasElement temp in gameScreen.children){
       
-      //Don't need to worry about gradientCanvas x changes
+      //Don't need to worry about gradientCanvas x changes 
+      
       if (temp.id == 'gradient'){
       temp.style.top =  ((temp.height - gameScreenHeight) * -currentPercentY).toString() + 'px';
       }
@@ -191,7 +198,9 @@ class Street {
       temp.style.position = 'absolute';
       temp.style.left = (offSetX.toString()) + 'px';
       temp.style.top =  (offSetY.toString()) + 'px';
+      
       }
+      
     }
   }  
 }
