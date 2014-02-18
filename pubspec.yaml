@@ -4,9 +4,6 @@ version: 0.0.0
 homepage: ChildrenOfUr.github.io
 description: The sourcecode/tools needed to hack/compile the Children of Ur client
 dependencies:
-  box2d: any
-  browser: any
-  game_loop: any
   glitchTime:
     git:
       ref: master
