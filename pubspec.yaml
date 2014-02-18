@@ -1,8 +1,8 @@
 name: coUclient
-version: 0.0.0
 author: coU Development Team
-description: The sourcecode/tools needed to hack/compile the Children of Ur client
+version: 0.0.0
 homepage: ChildrenOfUr.github.io
+description: The sourcecode/tools needed to hack/compile the Children of Ur client
 dependencies:
   box2d: any
   browser: any
@@ -16,6 +16,7 @@ dependencies:
     git:
       ref: master
       url: https://github.com/ChildrenOfUr/loadie.git
+  pixi: any
   scproxy:
     git:
       ref: master
