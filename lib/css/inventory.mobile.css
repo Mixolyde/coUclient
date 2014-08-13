@@ -1,17 +1,5 @@
 #inventory {
-	position:absolute;
-	bottom:17px;
-	left:25px;
-	padding:1px;
-	height:60px;
-	width:calc(100% - 290px);
-	max-width:calc(100% - 40px);
-	min-width:calc(300px - 40px);
-	white-space: nowrap;
-	text-align:center;
-	background-color:rgba(0,0,0,0.1);
-	border-radius:9px;
-	border-top:1px solid rgba(0,0,0,0.1);
+	display: none
 }
 
 #inventory .box, .window .box {
@@ -41,7 +29,7 @@
 	height:35px;
 	border-radius:50%;
 	position:absolute;
-	bottom:70px;
+	bottom:5px;
 	left:0px;
 	cursor:pointer;
 	z-index:0;
@@ -59,7 +47,7 @@
 }
 
 #invBoxContainer {
-	margin-top: 4em;
+	margin-top: 8%;
 }
 
 /* this is the actual search box*/
@@ -70,7 +58,7 @@
 	border: 2px solid rgba(0,0,0,0.3);
 	z-index: 1;
 	box-shadow: 0 0 5px 1px rgba(0,0,0,0.1); display: inline-block;
-	margin-top: 80px;
+	margin-top: 5%;
 	outline: none;
 }
 #invsearch:focus {

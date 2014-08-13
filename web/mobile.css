@@ -1,0 +1,32 @@
+/* Base CSS file for cou */
+/*if you're adding a component to the ui, put your css in another file and import it.*/
+
+
+/*Fonts*/
+@import url("packages/couclient/css/font-awesome.min.css");
+@import url("packages/couclient/css/rockoflf.css");
+
+/*Resets*/
+@import url("packages/couclient/css/cou_defaults.mobile.css");
+
+/*Component Imports*/
+@import url("packages/couclient/css/buttons.css");
+@import url("packages/couclient/css/game.mobile.css");
+@import url("packages/couclient/css/loader.mobile.css");
+@import url("packages/couclient/css/inventory.mobile.css");
+@import url("packages/couclient/css/name.css");
+@import url("packages/couclient/css/mask.css");
+@import url("packages/couclient/css/meters.css");
+@import url("packages/couclient/css/imagination.css");
+@import url("packages/couclient/css/overlay.css");
+@import url("packages/couclient/css/currants.mobile.css");
+@import url("packages/couclient/css/timedate.css");
+@import url("packages/couclient/css/nav.mobile.css");
+@import url("packages/couclient/css/map.css");
+@import url("packages/couclient/css/panel.mobile.css");
+@import url("packages/couclient/css/chat.mobile.css");
+@import url("packages/couclient/css/window.mobile.css");
+@import url("packages/couclient/css/console.css");
+@import url("packages/couclient/css/youwon.css");
+@import url("packages/couclient/css/soundcloud.mobile.css");
+@import url("packages/couclient/css/exit_sign.css");
