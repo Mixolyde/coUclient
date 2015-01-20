@@ -26,7 +26,7 @@ which is then compiled and minified into javascript and can run in most browsers
 site on Trello for the current roadmap.
 
 ##Project Layout##
-main.dart serves as the main game loop. This class controls all functions within the game. Dart classes and
+`lib/src/main.dart` serves as the main game loop. This class controls all functions within the game. Other classes and
 functions are in the `lib/src` folder. Images, CSS and other web resources are in `web/assets`. More
 development documentation is in the `doc` folder.
 
